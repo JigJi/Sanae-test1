@@ -1,0 +1,70 @@
+interface Translations {
+  [key: string]: {
+    [key: string]: string;
+  };
+}
+
+const translations: Translations = {
+  th: {
+    about: 'เกี่ยวกับเรา',
+    menu: 'เมนู',
+    contact: 'ติดต่อ',
+    aboutContent: 'เสน่ห์ ไทย คูซีน เริ่มต้นจากร้านเล็กๆ ในรูปแบบรถเข็นริมทาง ที่เต็มไปด้วยความมุ่งมั่นและความรักในอาหารไทยแท้ๆ จนวันนี้เราได้เติบโตเป็นร้านอาหารที่ได้รับการยอมรับอย่างกว้างขวาง ทั้งในด้านรสชาติและบรรยากาศอันอบอุ่นที่เราใส่ใจในทุกรายละเอียด',
+    restaurantStyle: 'ร้านของเราตกแต่งในสไตล์ไทยวินเทจ ให้ความรู้สึกอบอุ่นเหมือนบ้าน ทุกมุมของร้านถูกออกแบบมาเพื่อให้ลูกค้ารู้สึกผ่อนคลายและมีความสุขกับการทานอาหาร ร้านเรายังเป็น ร้านอาลาล ที่คำนึงถึงมาตรฐานและคุณภาพในทุกจาน โดยมีเมนูขายดีอย่าง ขาวัวตุ๋น ที่เป็นจานพิเศษที่หลายคนประทับใจ',
+    awards: 'เราภูมิใจที่ได้รับรางวัลจาก มิชลินไกด์ ซึ่งเป็นสิ่งที่ยืนยันถึงคุณภาพและความตั้งใจของเราในการเสิร์ฟอาหารที่ดีที่สุด และในทุกๆ วัน เรามุ่งมั่นที่จะพัฒนาร้านให้ดียิ่งขึ้น เพื่อให้ทุกคนได้สัมผัสกับความอร่อยและเสน่ห์ของอาหารไทยอย่างแท้จริง',
+    recommendedMenu: 'เมนูแนะนำ',
+    porkLegRice: 'ข้าวขาหมู',
+    porkLegRiceDesc: 'เนื้อหมูและหนังนุ่มๆ อันเป็นเอกลักษณ์ลูกค้าชื่นชอบ',
+    shrimpFriedRice: 'ข้าวผัดกุ้ง',
+    shrimpFriedRiceDesc: 'ข้าวผัดกุ้งหอมๆ ใส่ไข่ดาวเพิ่มความอร่อย เสิร์ฟพร้อมผักสดและมะนาว',
+    thaiIceCream: 'ไอศกรีมเสน่ห์ไทย',
+    thaiIceCreamDesc: 'ขนมหวานสุดพิเศษของร้าน โรตีกรอบทอดสีทองอร่อย สูตรเฉพาะของเสน่ห์ไทย',
+    contactUs: 'ติดต่อเรา',
+    openingHours: 'เปิดบริการทุกวัน 10:00 - 14:00, 17:00 - 21:00',
+    address: '184 ถนนวังสิงห์คำ ต.ป่าตัน อ.เมือง จ.เชียงใหม่ 50300',
+    allRightsReserved: 'สงวนลิขสิทธิ์',
+    thaiCuisineSlogan: 'สัมผัสรสชาติแห่งความเป็นไทย',
+  },
+  en: {
+    about: 'About',
+    menu: 'Menu',
+    contact: 'Contact',
+    aboutContent: 'Sanae Thai Cuisine started as a small street food cart, filled with passion and love for authentic Thai cuisine. Today, we have grown into a widely recognized restaurant, known for our flavors and warm atmosphere that we carefully curate in every detail.',
+    restaurantStyle: 'Our restaurant is decorated in a vintage Thai style, giving a warm, homey feeling. Every corner is designed to make customers feel relaxed and happy while dining. We are also a Halal restaurant, focusing on standards and quality in every dish. Our bestseller, the stewed beef shank, is a special dish that many people love.',
+    awards: 'We are proud to have received an award from the Michelin Guide, which confirms our quality and intention to serve the best food. Every day, we strive to improve our restaurant to ensure everyone can experience the deliciousness and charm of authentic Thai cuisine.',
+    recommendedMenu: 'Recommended Menu',
+    porkLegRice: 'Pork Leg Rice',
+    porkLegRiceDesc: 'Tender pork meat and skin, a signature dish loved by customers',
+    shrimpFriedRice: 'Shrimp Fried Rice',
+    shrimpFriedRiceDesc: 'Aromatic shrimp fried rice with a fried egg, served with fresh vegetables and lemon',
+    thaiIceCream: 'Sanae Thai Ice Cream',
+    thaiIceCreamDesc: 'Special dessert of the restaurant, crispy golden roti, Sanae Thai\'s exclusive recipe',
+    contactUs: 'Contact Us',
+    openingHours: 'Open daily 10:00 - 14:00, 17:00 - 21:00',
+    address: '184 Wang Sing Kham Road, Pa Tan, Mueang, Chiang Mai 50300',
+    allRightsReserved: 'All rights reserved',
+    thaiCuisineSlogan: 'Experience the taste of Thailand',
+  },
+  zh: {
+    about: '关于我们',
+    menu: '菜单',
+    contact: '联系我们',
+    aboutContent: 'Sanae Thai Cuisine 最初是一个小小的街头美食车，充满对正宗泰国美食的热情和热爱。如今，我们已经发展成为一家广受认可的餐厅，以我们的口味和我们精心策划的每一个细节的温馨氛围而闻名。',
+    restaurantStyle: '我们的餐厅装饰采用泰国复古风格，给人温暖、家的感觉。每个角落都经过精心设计，让顾客在用餐时感到放松和愉快。我们还是一家清真餐厅，注重每道菜品的标准和质量。我们的畅销菜品，炖牛腱，是很多人喜爱的特色菜。',
+    awards: '我们很自豪能获得米其林指南的奖项，这证实了我们的质量和提供最佳食物的意图。每一天，我们都在努力改进我们的餐厅，以确保每个人都能体验到正宗泰国美食的美味和魅力。',
+    recommendedMenu: '推荐菜单',
+    porkLegRice: '猪脚饭',
+    porkLegRiceDesc: '嫩滑的猪肉和皮，深受顾客喜爱的招牌菜',
+    shrimpFriedRice: '虾仁炒饭',
+    shrimpFriedRiceDesc: '香气扑鼻的虾仁炒饭配煎蛋，搭配新鲜蔬菜和柠檬',
+    thaiIceCream: 'Sanae Thai 特色冰淇淋',
+    thaiIceCreamDesc: '餐厅特色甜点，酥脆金黄的印度飞饼，Sanae Thai 独家配方',
+    contactUs: '联系我们',
+    openingHours: '每日营业时间 10:00 - 14:00, 17:00 - 21:00',
+    address: '184 Wang Sing Kham Road, Pa Tan, Mueang, 清迈 50300',
+    allRightsReserved: '版权所有',
+    thaiCuisineSlogan: '体验泰国的味道',
+  },
+};
+
+export default translations;
